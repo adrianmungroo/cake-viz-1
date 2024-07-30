@@ -8,7 +8,7 @@ from utils import basemaps, colormap_scales, get_color
 
 # PREAMBLE
 
-APP_TITLE = "CAKE visualizer demo 🎂"
+APP_TITLE = "CAKE visualizer 🎂"
 APP_SUBTITLE = "By Adrian Mungroo"
 
 st.set_page_config(
