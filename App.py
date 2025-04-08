@@ -70,7 +70,7 @@ def main():
         data = hex
 
         st.write('#### Custom Query')
-        query_string = st.text_area('Enter your custom query:', value='', height=10)
+        query_string = st.text_area('Enter your custom query:', value='', height=100)
         if query_string:
             data = data.query(query_string)
 
